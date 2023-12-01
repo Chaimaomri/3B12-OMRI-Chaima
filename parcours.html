@@ -1,46 +1,105 @@
-<html>
+<!DOCTYPE html>
+<html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <title>Parcours académiques - OMRI Chaima</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+
+        header {
+            background-color: #343a40;
+            text-align: center;
+            padding: 20px;
+            color: #fff;
+        }
+
+        nav {
+            background-color: #343a40;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease-in-out;
+        }
+
+        nav a:hover {
+            color: #e74c3c;
+        }
+
+        hr {
+            border: 1px solid #3498db;
+        }
+
+        section {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            color: #007bff;
+        }
+
+        section h3 {
+            color: #2c3e50;
+        }
+
+        section p {
+            line-height: 1.6;
+            color: #34495e;
+            margin: 10px 0;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: #fff;
+            text-align: center;
+            padding: 0px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 
 <body>
     <header>
-        <h1 style="color: #2c3e50;">OMRI Chaima</h1>
-        <p style="color: #3498db;">Eléve ingénieur</p>
+        <h1>OMRI Chaima</h1>
+        <p>Élève ingénieur</p>
     </header>
-    <hr>
     <nav>
-        <ul>
-		<a href="index.html" style="color: #e74c3c;">Accueil</a>
-            <a href="parcours.html" style="color: #e74c3c;">Parcours académiques</a>
-            <a href="experiences.html" style="color: #e74c3c;">Expériences</a>
-            <a href="contact.html" style="color: #e74c3c;">Contact</a>
-            <!--<a href="index.html" style="color: #e74c3c;" >Accueil</a>
-                <a href="parcours.html" style="color: #e74c3c;">Parcours académiques</a>
-                <a href="experiences.html"style="color: #e74c3c;">Expériences</a>
-                <a href="contact.html" style="color: #e74c3c;">Contact</a>-->
-        </ul>
+        <a href="index.html">Accueil</a>
+        <a href="parcours.html">Parcours académiques</a>
+        <a href="experiences.html">Expériences</a>
+        <a href="contact.html">Contact</a>
     </nav>
     <hr>
+
     <section id="parcours">
 
         <h2>Parcours académiques</h2>
-		 <div>
-          <h3>Baccalauréat</h3>
-		  <p style="color: #34495e;">-En scienes éxperimentales - Année d'obtention 2020</p>
+        <div>
+            <h3>Baccalauréat</h3>
+            <p>- En sciences expérimentales - Année d'obtention 2020</p>
         </div>
         <div>
-          <h3>Diplome licence national en Electronique, Electronique et Automatique</h3>
-            <p style="color: #34495e;">-Institut supérieur des sciences appliquées et de technologies - Année d'obtention 2023</p>
+            <h3>Diplôme de licence national en Électronique, Électrotechnique et Automatique</h3>
+            <p>- Institut supérieur des sciences appliquées et de technologies - Année d'obtention 2023</p>
         </div>
-
-       <!-- <div>
-            <h3>Titre du diplôme 2</h3>
-            <p>Université ABC - Année d'obtention</p>
-        </div>
-
-        <!-- Ajoutez autant d'éléments que nécessaire pour détailler votre parcours académique -->
     </section>
 
     <footer>
@@ -49,3 +108,4 @@
 </body>
 
 </html>
+

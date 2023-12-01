@@ -3,33 +3,110 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact - OMRI Chaima</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+
+        header {
+            background-color: #343a40;
+            text-align: center;
+            padding: 20px;
+            color: #fff;
+        }
+
+        nav {
+            background-color: #343a40;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease-in-out;
+        }
+
+        nav a:hover {
+            color: #e74c3c;
+        }
+
+        hr {
+            border: 1px solid #3498db;
+        }
+
+        section {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            color: #007bff;
+        }
+
+        section p {
+            line-height: 1.6;
+            margin: 10px 0;
+        }
+
+        section img {
+            width: 20px;
+            height: 20px;
+            margin-right: 5px;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: #fff;
+            text-align: center;
+            padding: px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 
 <body>
-   <header>
-        <h1 style="color: #2c3e50;"> OMRI Chaima</h1>
-        <p style="color: #3498db;"> Eléve ingénieur</p>
+    <header>
+        <h1>OMRI Chaima</h1>
+        <p>Élève ingénieur</p>
     </header>
-     <hr>
-  
     <nav>
-        <ul>
-            <a href="index.html" style="color: #e74c3c;">Accueil</a>
-            <a href="parcours.html" style="color: #e74c3c;">Parcours académiques</a>
-            <a href="experiences.html" style="color: #e74c3c;">Expériences</a>
-            <a href="contact.html" style="color: #e74c3c;">Contact</a>
-        </ul>
+        <a href="index.html">Accueil</a>
+        <a href="parcours.html">Parcours académiques</a>
+        <a href="experiences.html">Expériences</a>
+        <a href="contact.html">Contact</a>
     </nav>
     <hr>
+
     <section id="contact">
         <h2>Contact</h2>
-        <p>Vous pouvez me contacter à l'adresse email suivante : <a href="shaima.omri@esprit.tn"> shaima.omri@esprit.tn</a></p>
+        <p>
+            <img src="img/image_email.png" alt="Icône email">
+            L'adresse email: <a href="mailto:shaima.omri@esprit.tn">shaima.omri@esprit.tn</a>
+        </p>
+        <p>
+            <img src="img/telicone.png" alt="Icône téléphone">
+            Numéro de téléphone: <a href="tel:+21628073537">+216 28 073 537</a>
+        </p>
     </section>
 
     <footer>
-        <p>&copy; 2023 Esprit</p>
+        <p>&copy; 2023 OMRI Chaima - Portfolio</p>
     </footer>
 </body>
 
 </html>
+

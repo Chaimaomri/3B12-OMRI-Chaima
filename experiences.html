@@ -1,40 +1,108 @@
-<html>
+<!DOCTYPE html>
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
     <title>Expériences - OMRI Chaima</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+
+        header {
+            background-color: #343a40;
+            text-align: center;
+            padding: 20px;
+            color: #fff;
+        }
+
+        nav {
+            background-color: #343a40;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease-in-out;
+        }
+
+        nav a:hover {
+            color: #e74c3c;
+        }
+
+        hr {
+            border: 1px solid #3498db;
+        }
+
+        section {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+
+        section h3 {
+            color: #2c3e50;
+            margin-top: 0;
+        }
+
+        section p {
+            line-height: 1.6;
+            color: #34495e;
+            margin: 10px 0;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: #fff;
+            text-align: center;
+            padding: 0px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 
 <body>
     <header>
-        <h1 style="color: #2c3e50;"> OMRI Chaima</h1>
-        <p style="color: #3498db;"> Eléve ingénieur</p>
+        <h1>OMRI Chaima</h1>
+        <p>Élève ingénieur</p>
     </header>
-    <hr>
     <nav>
-        <ul>
-           <a href="index.html" style="color: #e74c3c;" >Accueil</a>
-                <a href="parcours.html" style="color: #e74c3c;">Parcours académiques</a>
-                <a href="experiences.html"style="color: #e74c3c;">Expériences</a>
-                <a href="contact.html" style="color: #e74c3c;">Contact</a>
-        </ul>
+        <a href="index.html">Accueil</a>
+        <a href="parcours.html">Parcours académiques</a>
+        <a href="experiences.html">Expériences</a>
+        <a href="contact.html">Contact</a>
     </nav>
     <hr>
+
     <section id="experiences">
         <h2>Expériences</h2>
         <div>
-            <h3>Téchnicien supérieur</h3>
-            <p>Asteelflash la Soukra - 01/07/2022 à 01/08/2022</p>
-       
+            <h3>Téchnicien supérieur - Asteelflash la Soukra</h3>
+            <p>Période : 01/07/2022 à 01/08/2022</p>
         </div>
 
         <div>
-            <h3>Technicien supérieur</h3>
-            <p>Centre d'innovation El Ghazela - 15/02/2023-15/05/2023</p>
-            <p>La conception d'un bras robotique controlé par la carte ESP32 via bluetooth</p>
+            <h3>Technicien supérieur - Centre d'innovation El Ghazela</h3>
+            <p>Période : 15/02/2023 à 15/05/2023</p>
+            <p>Projet : La conception d'un bras robotique contrôlé par la carte ESP32 via Bluetooth</p>
         </div>
-
-      
     </section>
 
     <footer>
